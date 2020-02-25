@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		TTT
+	</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu Mono">
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="ttt.css" />
+	
+<!-- defer => loads after the body of the html -->
+</head>
+<body>
+	<h1>Tic Tac Toe</h1>
+	<div class="board" id="board">
+		<!-- x/o turn -->
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+		<div class="cell" data-cell></div>
+	</div>
+	<div class="winning-message">
+		<!-- show class -->
+		<div data-winning-message-text></div>
+		<!-- messsage -->
+		<button id="restartButton">Restart</button>
+	</div>
+</body>
+</html>
